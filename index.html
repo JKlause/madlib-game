@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Madlib Game</h1>
+    <h1 class="banner">Madlib Game</h1>
 
     <section>
         <label>
@@ -39,12 +39,11 @@
         <br>
     </section>
 
-    <input type="button" value="Make Madlib" onClick="createMadLib()" >
- 
-    <img id="madHatterImage" src="https://vignette.wikia.nocookie.net/heroes-and-villians/images/6/6d/Madhatterdisney.png/revision/latest?cb=20190620025223" alt="Mad Hatter Image" >
-    
+    <h2 class="banner">Click On The Image To Reveal Your Madlib!!</h2>
 
-    <p>
+    <input type="image" id="madHatterImage" onClick="createMadLib()" src="https://vignette.wikia.nocookie.net/heroes-and-villians/images/6/6d/Madhatterdisney.png/revision/latest?cb=20190620025223" >
+
+    <p class="madlib">
         Sometimes when you learn <span id="user-noun-1"></span>, you get 
         <span id="user-adj-1"></span> and <span id="user-adj-2"></span>.
         But have no <span id="user-noun-2"></span>! There are always <span id="user-pl-noun-1"></span>
