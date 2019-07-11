@@ -16,6 +16,9 @@ const userNoun2 = document.getElementById('user-noun-2');
 const userPlNoun1 = document.getElementById('user-pl-noun-1');
 const userVerb1 = document.getElementById('user-verb-1');
 
+// Revealing madlib
+const reveal = document.getElementById('madlib');
+
 // eslint-disable-next-line no-unused-vars
 function createMadLib() {
     userNoun1.textContent = noun1Input.value;
@@ -24,4 +27,5 @@ function createMadLib() {
     userNoun2.textContent = noun2Input.value;
     userPlNoun1.textContent = plNoun1Input.value;
     userVerb1.textContent = verb1Input.value;
+    reveal.classList.remove('hidden');
 }
