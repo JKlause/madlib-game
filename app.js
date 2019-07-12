@@ -21,11 +21,11 @@ const reveal = document.getElementById('madlib');
 
 // eslint-disable-next-line no-unused-vars
 function createMadLib() {
-    userNoun1.textContent = noun1Input.value;
-    userAdj1.textContent = Adj1Input.value;
-    userAdj2.textContent = Adj2Input.value;
-    userNoun2.textContent = noun2Input.value;
-    userPlNoun1.textContent = plNoun1Input.value;
-    userVerb1.textContent = verb1Input.value;
+    userNoun1.textContent = noun1Input.value.toLowerCase();
+    userAdj1.textContent = Adj1Input.value.toLowerCase();
+    userAdj2.textContent = Adj2Input.value.toLowerCase();
+    userNoun2.textContent = noun2Input.value.toLowerCase();
+    userPlNoun1.textContent = plNoun1Input.value.toLowerCase();
+    userVerb1.textContent = verb1Input.value.toLowerCase();
     reveal.classList.remove('hidden');
-}
+} 
